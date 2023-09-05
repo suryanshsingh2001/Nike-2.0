@@ -1,3 +1,5 @@
+import React from "react";
+
 const Button = ({
   label,
   iconURL,
@@ -8,12 +10,15 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
+      className={`relative inline-flex items-center px-7 py-4 border font-montserrat text-lg leading-none rounded-full transition-all duration-300 ease-in-out
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : "bg-coral-red text-white border-coral-red"
-      } rounded-full ${fullWidth && "w-full"}`}
+      }
+      hover:bg-black hover:text-#D400FF hover:transform hover:scale-105 hover:rotate-3 ${
+        fullWidth && "w-full"
+      }`}
     >
       {label}
 
@@ -21,7 +26,7 @@ const Button = ({
         <img
           src={iconURL}
           alt="arrow right icon"
-          className="ml-2 rounded-full bg-white w-5 h-5"
+          className="ml-2 rounded-full bg-white w-5 h-5 transform translate-x-2"
         />
       )}
     </button>

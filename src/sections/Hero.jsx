@@ -1,5 +1,4 @@
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
 import { shoes, statistics } from "../constants";
 import { Button, ShoeCard } from "../components";
 import { bigShoe1 } from "../assets/images";
@@ -7,11 +6,22 @@ import { arrowRight } from "../assets/icons";
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setLoaded(true);
+    }, 1000); // Adjust the delay time (in milliseconds) as needed
+
+    return () => clearTimeout(delay);
+  }, []);
 
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
+      className={`w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container ${
+        loaded ? "opacity-1 transition-opacity duration-1000" : "opacity-0"
+      }`}
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red">
@@ -44,7 +54,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
+      <div className={`relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center ${loaded ? "opacity-1 transition-opacity duration-1000" : "opacity-0"}`}>
         <img
           src={bigShoeImg}
           alt="shoe colletion"

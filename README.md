@@ -1,6 +1,7 @@
 # Nike 2.0 Landing Page 🚀
 
-![Nike 2.0 Landing Page](<Add a screenshot or demo GIF here>)
+
+![Image](https://github.com/suryanshsingh2001/Nike-Website/blob/main/screenshots/Screenshot%202023-09-05%20235932.jpg)
 
 A modern landing page for Nike 2.0, built with Tailwind CSS, React.js, and Vite.js.
 

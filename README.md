@@ -5,6 +5,10 @@
 
 A modern landing page for Nike 2.0, built with Tailwind CSS, React.js, and Vite.js.
 
+<br>
+
+[**Live Link 🔗**](https://nike-2-0-ten.vercel.app/)
+
 ## 📄 Table of Contents
 
 - [Features](#features)
@@ -12,7 +16,6 @@ A modern landing page for Nike 2.0, built with Tailwind CSS, React.js, and Vite.
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Pending Issues](#pending-issues)
-- [License](#license)
 
 
 ## 📋 Features

@@ -1,5 +1,5 @@
 # Nike 2.0 Landing Page 🚀
-
+ ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ![Image](https://github.com/suryanshsingh2001/Nike-Website/blob/main/screenshots/Screenshot%202023-09-06%20001710.jpg)
 

@@ -13,7 +13,7 @@ const SpecialProducts = () => {
           src={offer}
           width={773}
           height={687}
-          className="object-contain w-full"
+          className="object-contain w-full rotate"
         />
       </div>
 

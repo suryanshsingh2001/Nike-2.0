@@ -1,13 +1,16 @@
 # Nike 2.0 Landing Page 🚀
  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-![Image](https://github.com/suryanshsingh2001/Nike-Website/blob/main/screenshots/Screenshot%202023-09-06%20001710.jpg)
 
 A modern landing page for Nike 2.0, built with Tailwind CSS, React.js, and Vite.js.
 
 <br>
 
-[**Live Link 🔗**](https://nike-2-0-ten.vercel.app/)
+[**Live Link 🔗**](https://nike2.vercel.app/)
+
+
+https://github.com/suryanshsingh2001/Nike-2.0/assets/80690023/7e97a326-67a3-4a62-9bb0-4b01ad8cd309
+
 
 ## 📄 Table of Contents
 
